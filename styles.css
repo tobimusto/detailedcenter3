@@ -247,7 +247,7 @@ button{font:inherit}
 .hero-title .word.accent{
   color:transparent;
   -webkit-text-stroke:2px var(--accent);
-  text-shadow:0 0 15px rgba(230,0,0,0.4); /* Bajamos el brillo GENERAL para que ande bien siempre */
+  text-shadow:none; /* Eliminamos la sombra completamente para evitar el bug de brillo en iOS Safari */
 }
 .hero-title .subtle .word{color:var(--muted)}
 
