@@ -247,12 +247,7 @@ button{font:inherit}
 .hero-title .word.accent{
   color:transparent;
   -webkit-text-stroke:2px var(--accent);
-  text-shadow:0 0 32px var(--accent-glow);
-}
-@media (max-width:900px){
-  .hero-title .accent{
-    text-shadow: 0 0 8px rgba(230,0,0,0.25); /* Sombra mucho mas suave en celulares para evitar saturacion */
-  }
+  text-shadow:0 0 15px rgba(230,0,0,0.4); /* Bajamos el brillo GENERAL para que ande bien siempre */
 }
 .hero-title .subtle .word{color:var(--muted)}
 
@@ -668,4 +663,20 @@ button{font:inherit}
   *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
   .reveal{opacity:1;transform:none}
   .hero-title .word{transform:none;opacity:1}
+}
+
+/* =========================================================
+   INVERSION 0KM
+   ========================================================= */
+.inversion-grid {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 4rem; 
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .inversion-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }
