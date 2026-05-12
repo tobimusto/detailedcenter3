@@ -128,6 +128,10 @@ button{font:inherit}
   .site-nav{display:none}
   .brand-logo{height:40px!important}
   .header-cta{display:none}
+  
+  .hero-title .accent{
+    text-shadow: 0 0 8px rgba(230,0,0,0.25); /* Sombra mucho mas suave en celulares para evitar saturacion */
+  }
 }
 
 /* =========================================================
@@ -244,6 +248,11 @@ button{font:inherit}
   color:transparent;
   -webkit-text-stroke:2px var(--accent);
   text-shadow:0 0 32px var(--accent-glow);
+}
+@media (max-width:900px){
+  .hero-title .accent{
+    text-shadow: 0 0 8px rgba(230,0,0,0.25); /* Sombra mucho mas suave en celulares para evitar saturacion */
+  }
 }
 .hero-title .subtle .word{color:var(--muted)}
 
@@ -482,26 +491,33 @@ button{font:inherit}
   border-top:1px solid var(--line);
 }
 .compare{
-  position:relative;width:100%;
-  max-width:1080px;margin:0 auto;
-  aspect-ratio:16/9;
+  position:relative;width:100%;max-width:900px;margin:0 auto;
   border-radius:var(--radius-lg);overflow:hidden;
   border:1px solid var(--line);
-  cursor:ew-resize;
-  user-select:none;
-  box-shadow:0 30px 80px -30px rgba(0,0,0,.8);
+  background:var(--bg-2);
+  user-select:none;touch-action:pan-y;
+  aspect-ratio: 16/9; /* Fijar el aspect ratio para que no se deformen las fotos */
 }
 .compare-img{
-  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  display:block;width:100%;height:100%;object-fit:cover;
   pointer-events:none;
 }
 .after-wrap{
-  position:absolute;inset:0;
-  width:50%;
-  overflow:hidden;
-  will-change:width;
+  position:absolute;top:0;left:0;width:50%;height:100%;
+  overflow:hidden;border-right:2px solid #fff;
+  z-index:2;
 }
-.after-wrap .compare-img{width:max(1080px,100%);max-width:none;height:100%;object-fit:cover}
+.after-wrap img{
+  width:100vw; /* Fix old hack */
+  max-width: 900px;
+  height:100%;
+  object-fit:cover;
+}
+@media (max-width: 900px) {
+  .after-wrap img {
+    width: calc(100vw - 2rem); /* Ajustar al tamaño del contenedor en mobile */
+  }
+}
 @media (min-width:1080px){
   .after-wrap .compare-img{width:1080px}
 }
