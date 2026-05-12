@@ -1,0 +1,325 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Detailed Center — Estética Vehicular Premium</title>
+<meta name="description" content="Estética vehicular premium en Mar del Plata. PPF, cerámicos, pintura, polarizados y detallado profesional. Reservá tu turno." />
+<meta name="theme-color" content="#050505" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Anton&display=swap" rel="stylesheet">
+
+<!-- Phosphor Icons -->
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css" />
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+
+<!-- Swiper -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<link rel="stylesheet" href="./styles.css?v=17" />
+</head>
+<body>
+
+<!-- ====================== HEADER ====================== -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-row">
+    <nav class="site-nav" aria-label="Principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#antes-despues">Antes / Después</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="brand" href="#top" aria-label="Detailed Center inicio">
+      <img class="brand-logo" src="./logo-nuevo-blanco.png" alt="Detailed Center" onerror="this.style.display='none';this.nextElementSibling.style.display='inline-flex'">
+      <span class="brand-wordmark" style="display:none">
+        <span class="bw-line"></span>
+        <span class="bw-text">DETAILED <em>CENTER</em></span>
+      </span>
+    </a>
+    <a class="btn btn-primary btn-sm header-cta" href="https://wa.me/2235124028?text=Hola%20Detailed%20Center,%20quiero%20consultar%20por%20un%20servicio" target="_blank" rel="noopener">
+      <i class="ph-bold ph-calendar-check"></i>
+      <span>Reservá tu turno</span>
+    </a>
+  </div>
+</header>
+
+<!-- ====================== HERO ====================== -->
+<section class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="hero-noise" aria-hidden="true"></div>
+
+  <div class="container hero-grid">
+    <span class="hero-tag reveal" data-delay="0">
+      <span class="dot"></span> Mar del Plata · Estética vehicular premium
+    </span>
+    <h1 class="hero-title">
+      <span class="line"><span class="word">Tu auto</span> <span class="word">como</span></span>
+      <span class="line"><span class="word">el</span> <span class="word accent">primer</span> <span class="word accent">día.</span></span>
+      <span class="line subtle"><span class="word">O mejor.</span></span>
+    </h1>
+    <p class="hero-sub reveal" data-delay="200">
+      PPF, cerámicos, pintura premium y detallado obsesivo. Trabajamos cada milímetro como si el auto fuera nuestro.
+    </p>
+    <div class="hero-cta reveal" data-delay="320">
+      <a class="btn btn-primary btn-pulse" href="https://wa.me/2235124028?text=Hola%20Detailed%20Center,%20quiero%20consultar%20por%20un%20servicio" target="_blank" rel="noopener">
+        <i class="ph-bold ph-whatsapp-logo"></i>
+        <span>Reservá tu turno</span>
+      </a>
+      <a class="btn btn-ghost" href="#galeria">
+        <span>Ver trabajos</span>
+        <i class="ph-bold ph-arrow-right"></i>
+      </a>
+    </div>
+    <div class="hero-meta reveal" data-delay="450">
+      <div><strong>+50</strong><span>Reseñas 5★</span></div>
+      <div><strong>+800</strong><span>Autos detallados</span></div>
+      <div><strong>10+</strong><span>Años de oficio</span></div>
+    </div>
+  </div>
+
+  <a class="hero-scroll" href="#social" aria-label="Bajar">
+    <span></span>
+  </a>
+</section>
+
+<!-- ====================== SOCIAL PROOF ====================== -->
+<section class="social" id="social">
+  <div class="container social-head">
+    <span class="badge-google reveal">
+      <i class="ph-fill ph-star"></i>
+      <strong>+50 Reseñas 5 estrellas</strong>
+      <span>en Google</span>
+    </span>
+    <h2 class="reveal">Lo que dicen <em>nuestros clientes</em>.</h2>
+  </div>
+
+  <div class="marquee-mask">
+    <div class="marquee" id="reviewsMarquee">
+      <article class="review">
+        <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+        <p>"Increíble el trabajo en mi Vento. Lo dejaron mejor que de fábrica. Atención impecable."</p>
+        <footer><strong>Martín G.</strong><span>Hace 2 semanas</span></footer>
+      </article>
+      <article class="review">
+        <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+        <p>"Hice el PPF en la Amarok y no se le nota. Profesionalismo total. Recomiendo 100%."</p>
+        <footer><strong>Carolina S.</strong><span>Hace 1 mes</span></footer>
+      </article>
+      <article class="review">
+        <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+        <p>"Le hicieron el cerámico a mi Hilux y quedó espectacular. Muy detallistas con todo."</p>
+        <footer><strong>Federico R.</strong><span>Hace 3 semanas</span></footer>
+      </article>
+      <article class="review">
+        <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+        <p>"Detallaron mi Kawasaki Ninja y la dejaron de exposición. Únicos en Mar del Plata."</p>
+        <footer><strong>Lucas P.</strong><span>Hace 2 meses</span></footer>
+      </article>
+      <article class="review">
+        <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+        <p>"Limpieza profunda de tapizados y motor. Parecía un auto nuevo. Volvería sin dudar."</p>
+        <footer><strong>Romina V.</strong><span>Hace 1 semana</span></footer>
+      </article>
+      <article class="review">
+        <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+        <p>"Pintura premium en el Peugeot, terminación de fábrica. Trabajo prolijo y en tiempo."</p>
+        <footer><strong>Diego A.</strong><span>Hace 4 días</span></footer>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== SERVICIOS ====================== -->
+<section class="services" id="servicios">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Servicios</span>
+      <h2>Cuidamos cada <em>detalle</em>.</h2>
+      <p>Desde la protección invisible del PPF hasta el ploteo más estridente. Trabajamos sobre autos comunes y de colección con la misma obsesión.</p>
+    </div>
+
+    <div class="services-split reveal">
+      <div class="services-list" id="servicesList">
+        <article class="service-item is-active" data-img="escape%20vento%20gli.jpg">
+          <span class="num">01</span>
+          <div class="svc-text">
+            <h3 class="title">Estética vehicular premium</h3>
+            <p class="desc">Detallado integral exterior e interior. Devolvemos el brillo de fábrica con técnicas profesionales.</p>
+            <div class="inline-img"><img src="escape%20vento%20gli.jpg" alt="Estética premium" loading="lazy"></div>
+          </div>
+        </article>
+
+        <article class="service-item" data-img="logo%20vento%20gli.jpg">
+          <span class="num">02</span>
+          <div class="svc-text">
+            <h3 class="title">Tratamientos cerámicos y acrílicos</h3>
+            <p class="desc">Selladores de alto rendimiento. Brillo profundo, hidrofobicidad y protección de larga duración.</p>
+            <div class="inline-img"><img src="logo%20vento%20gli.jpg" alt="Cerámicos" loading="lazy"></div>
+          </div>
+        </article>
+
+        <article class="service-item" data-img="ppf%20amarok.jpg">
+          <span class="num">03</span>
+          <div class="svc-text">
+            <h3 class="title">PPF — Protección de pintura</h3>
+            <p class="desc">Film de poliuretano transparente contra piedras, rayones y químicos. Invisible y autorregenerable.</p>
+            <div class="inline-img"><img src="ppf%20amarok.jpg" alt="PPF" loading="lazy"></div>
+          </div>
+        </article>
+
+        <article class="service-item" data-img="ppf%20peugeot.jpg">
+          <span class="num">04</span>
+          <div class="svc-text">
+            <h3 class="title">Carrocería y pintura premium</h3>
+            <p class="desc">Reparación de paños y retoques en cabina. Acabado de fábrica garantizado y color matching real.</p>
+            <div class="inline-img"><img src="ppf%20peugeot.jpg" alt="Pintura premium" loading="lazy"></div>
+          </div>
+        </article>
+
+        <article class="service-item" data-img="fachada.jpg">
+          <span class="num">05</span>
+          <div class="svc-text">
+            <h3 class="title">Limpieza de interior</h3>
+            <p class="desc">Detallado profundo de cueros, alcántaras y tapices. Tratamiento antiolores y aspirado total.</p>
+            <div class="inline-img"><img src="fachada.jpg" alt="Limpieza interior" loading="lazy"></div>
+          </div>
+        </article>
+
+        <article class="service-item" data-img="ppf%20peugeot.jpg">
+          <span class="num">06</span>
+          <div class="svc-text">
+            <h3 class="title">Limpieza de motores y chasis</h3>
+            <p class="desc">Desengrase profesional y dressing. Motor y bajos como recién salidos de la concesionaria.</p>
+            <div class="inline-img"><img src="ppf%20peugeot.jpg" alt="Motor y chasis" loading="lazy"></div>
+          </div>
+        </article>
+
+        <article class="service-item" data-img="kawasaki%20ninja.jpg">
+          <span class="num">07</span>
+          <div class="svc-text">
+            <h3 class="title">Detallado de motos</h3>
+            <p class="desc">Tratamiento integral para tu moto: brillo, protección y limpieza profunda en cada componente.</p>
+            <div class="inline-img"><img src="kawasaki%20ninja.jpg" alt="Detallado motos" loading="lazy"></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="services-visual" aria-hidden="true">
+        <div class="stage" id="servicesStage"></div>
+        <span class="visual-badge"><span class="dot"></span>Vista en vivo</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== BEFORE / AFTER ====================== -->
+<section class="compare-section" id="antes-despues">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">El efecto wow</span>
+      <h2>Antes &amp; <em>después</em>.</h2>
+      <p>Arrastrá la línea para ver la transformación. Mismo auto, otro nivel.</p>
+    </div>
+
+    <div class="compare reveal" id="compare" role="slider" aria-label="Comparador antes y después" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" tabindex="0">
+      <img class="compare-img" src="despues.jpg" alt="Después del detallado">
+      <div class="after-wrap" id="afterWrap">
+        <img class="compare-img" src="antes.jpg" alt="Antes del detallado">
+      </div>
+      <span class="compare-label l-before">Antes</span>
+      <span class="compare-label l-after">Después</span>
+      <div class="compare-handle" id="compareHandle">
+        <div class="knob"><i class="ph-bold ph-caret-double-right-bold"></i></div>
+      </div>
+    </div>
+    <p class="compare-note">Tip: arrastrá el círculo rojo →</p>
+  </div>
+</section>
+
+<!-- ====================== GALERÍA ====================== -->
+<section class="gallery" id="galeria">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Galería premium</span>
+      <h2>Pasaron por <em>el taller</em>.</h2>
+      <p>Una selección de los trabajos que más nos enorgullecen. Deslizá para ver más.</p>
+    </div>
+  </div>
+
+  <div class="swiper-wrap-mask">
+    <div class="swiper" id="gallerySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="vento%20gli%20izquierda.jpg" alt="Vento GLI"></div>
+        <div class="swiper-slide"><img src="vento%20gli%20trompa.jpg" alt="Vento GLI trompa"></div>
+        <div class="swiper-slide"><img src="escape%20vento%20gli.jpg" alt="Escape Vento GLI"></div>
+        <div class="swiper-slide"><img src="logo%20vento%20gli.jpg" alt="Logo Vento GLI"></div>
+        <div class="swiper-slide"><img src="hilux%20derecha.jpg" alt="Hilux derecha"></div>
+        <div class="swiper-slide"><img src="hilux%20izquierda.jpg" alt="Hilux izquierda"></div>
+        <div class="swiper-slide"><img src="ppf%20amarok.jpg" alt="PPF Amarok"></div>
+        <div class="swiper-slide"><img src="ppf%20peugeot.jpg" alt="PPF Peugeot"></div>
+        <div class="swiper-slide"><img src="ppf%20kawasaki%20ninja.jpg" alt="PPF Kawasaki Ninja"></div>
+        <div class="swiper-slide"><img src="kawasaki%20ninja.jpg" alt="Kawasaki Ninja"></div>
+        <div class="swiper-slide"><img src="frente%20kawasaki%20ninja.jpg" alt="Frente Kawasaki Ninja"></div>
+        <div class="swiper-slide"><img src="cola%20kawaski%20ninja.jpg" alt="Cola Kawasaki Ninja"></div>
+        <div class="swiper-slide"><img src="fachada.jpg" alt="Fachada del taller"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== CTA STRIP ====================== -->
+<section class="cta-strip" id="contacto">
+  <div class="container cta-grid">
+    <div class="reveal">
+      <span class="eyebrow light">Reservá tu turno</span>
+      <h2>Tu auto se merece <em>el mejor detallado</em> de la ciudad.</h2>
+      <p>Coordinamos por WhatsApp en minutos. Te asesoramos sin compromiso.</p>
+    </div>
+    <div class="cta-actions reveal" data-delay="200">
+      <a class="btn btn-light btn-pulse" href="https://wa.me/2235124028?text=Hola%20Detailed%20Center,%20quiero%20consultar%20por%20un%20servicio" target="_blank" rel="noopener">
+        <i class="ph-bold ph-whatsapp-logo"></i>
+        <span>Escribinos por WhatsApp</span>
+      </a>
+      <a class="btn btn-outline-light" href="https://www.instagram.com/detailedcenter_arg" target="_blank" rel="noopener">
+        <i class="ph-bold ph-instagram-logo"></i>
+        <span>@detailedcenter_arg</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== FOOTER ====================== -->
+<footer class="site-footer">
+  <div class="container footer-row">
+    <div class="footer-brand">
+      <img src="./logo-nuevo-blanco.png" alt="Detailed Center" onerror="this.style.display='none'">
+      <p>Estética vehicular premium · Mar del Plata</p>
+    </div>
+    <div class="footer-links">
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+      <a href="https://www.instagram.com/detailedcenter_arg" target="_blank" rel="noopener">Instagram</a>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Detailed Center · Hecho con obsesión por el detalle.</p>
+  </div>
+</footer>
+
+<!-- ====================== FLOATING WHATSAPP ====================== -->
+<a class="wa-float" href="https://wa.me/2235124028?text=Hola%20Detailed%20Center,%20quiero%20consultar%20por%20un%20servicio" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <i class="ph-fill ph-whatsapp-logo"></i>
+  <span class="wa-pulse" aria-hidden="true"></span>
+</a>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js?v=17"></script>
+</body>
+</html>
